@@ -1,12 +1,13 @@
 # TaskManager
-Gerenciar tarefas cotidianas a partir de um arquivo .csv
+## Gerenciar tarefas cotidianas a partir de um arquivo .csv
 
-config.properties 
-  medida=MINUTOS
-  intervalo=5
-  arquivo=tarefas.csv
+### config.properties 
+- medida=SEGUNDOS
+- intervalo=1
+- arquivo=tarefas.csv
   
-arquivo (definido em config.properties)
-  nome,descricao,local,dataInicio,dataTermino
+### arquivo (definido em config.properties)
+-nome,descricao,local,dataInicio,dataTermino
   
-formato das datas: dd/MM/yyyy HH:mm ou dd/MM/yyyy
+### formato das datas: 
+- dd/MM/yyyy HH:mm ou dd/MM/yyyy
